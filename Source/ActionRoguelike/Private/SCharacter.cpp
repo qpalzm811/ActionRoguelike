@@ -12,7 +12,7 @@ ASCharacter::ASCharacter()
 
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComp");
 
-	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComp");
+	UCameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComp");
 }
 
 // Called when the game starts or when spawned
